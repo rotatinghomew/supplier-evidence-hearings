@@ -1,0 +1,63 @@
+{
+  "materials": [
+    {
+      "id": "G1",
+      "rev": 1,
+      "owner": "CO-YY",
+      "file": "g1-master.txt",
+      "facts": [
+        "co_loading",
+        "price"
+      ],
+      "allows": [
+        "CO-YY"
+      ]
+    },
+    {
+      "id": "G1",
+      "rev": 2,
+      "owner": "CO-YY",
+      "file": "g1-cover.txt",
+      "facts": [
+        "co_loading"
+      ],
+      "allows": [
+        "CO-LP",
+        "CO-YY"
+      ]
+    },
+    {
+      "id": "G1",
+      "rev": 3,
+      "owner": "CO-YY",
+      "file": "g1-extract.txt",
+      "facts": [
+        "split_time"
+      ],
+      "allows": [
+        "CO-YY"
+      ]
+    },
+    {
+      "id": "G2",
+      "rev": 1,
+      "owner": "FAC",
+      "file": "g2-report.txt",
+      "facts": [
+        "seal_check"
+      ],
+      "allows": [
+        "CO-LP"
+      ]
+    }
+  ],
+  "withdrawals": [
+    {
+      "id": "DW",
+      "material": "G1",
+      "rev": 2,
+      "party": "CO-LP",
+      "at": "2026-12-03T14:45:00+08:00"
+    }
+  ]
+}

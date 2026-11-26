@@ -1,0 +1,65 @@
+{
+  "purchase": "ORDER-73",
+  "files_due_hours": 12,
+  "appeal_hours": 48,
+  "subjects": [
+    {
+      "id": "L1",
+      "supplier": "CO-LP",
+      "batch": "LP04",
+      "facts": [
+        "co_loading",
+        "seal_check"
+      ],
+      "proposed": "refuse"
+    },
+    {
+      "id": "L2",
+      "supplier": "CO-YY",
+      "batch": "YY17",
+      "facts": [
+        "co_loading",
+        "split_time"
+      ],
+      "proposed": "refuse"
+    }
+  ],
+  "rejection_at": "2026-12-03T08:00:00+08:00",
+  "requests": [
+    {
+      "id": "REQ-L",
+      "subject": "L1",
+      "by": "LP-01",
+      "targets": [
+        "co_loading",
+        "seal_check"
+      ],
+      "at": "2026-12-03T10:21:00+08:00"
+    },
+    {
+      "id": "REQ-Y",
+      "subject": "L2",
+      "by": "YY-09",
+      "targets": [
+        "split_time"
+      ],
+      "at": "2026-12-03T10:40:00+08:00"
+    }
+  ],
+  "agents": [
+    {
+      "org": "CO-LP",
+      "actor": "LP-01",
+      "valid_until": "2026-12-03T13:10:00+08:00"
+    },
+    {
+      "org": "CO-LP",
+      "actor": "LP-02",
+      "valid_from": "2026-12-03T13:10:00+08:00"
+    },
+    {
+      "org": "CO-YY",
+      "actor": "YY-09"
+    }
+  ]
+}
